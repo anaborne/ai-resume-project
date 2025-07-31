@@ -1,0 +1,33 @@
+# Node dependencies (frontend)
+client/node_modules/
+
+# Python cache and compiled files (backend)
+__pycache__/
+*.pyc
+
+# Python virtual environments
+.venv/
+venv/
+
+# MacOS noise
+.DS_Store
+
+# Flask uploads and output
+backend/uploads/
+*.log
+
+# Environment files
+.env
+backend/.env
+
+# Ignore OS-specific / IDE files
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Optional: exclude frontend build if generated outside /client
+build/
+dist/
+backend/.env
+backend/.env
